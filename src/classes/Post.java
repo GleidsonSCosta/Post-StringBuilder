@@ -83,7 +83,7 @@ public class Post {
 		for(Comentarios c : comentarios) {
 			sb.append(c.getTexto() + "\n");
 		}
-		return sb.toString();
+		return sb.toString(); //tranformando o StringBuilder em string
 	}
 	
 	
