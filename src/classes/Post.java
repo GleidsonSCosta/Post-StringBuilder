@@ -84,6 +84,7 @@ public class Post {
 			sb.append(c.getTexto() + "\n");
 		}
 		return sb.toString(); //tranformando o StringBuilder em string
+		
 	}
 	
 	
